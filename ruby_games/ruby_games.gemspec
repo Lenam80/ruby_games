@@ -1,11 +1,11 @@
 
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "test/cli/version"
+require "ruby_games/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "test-cli"
-  spec.version       = Test::Cli::VERSION
+  spec.name          = "ruby_games"
+  spec.version       = RubyGames::VERSION
   spec.authors       = ["'Angelina Montanez'"]
   spec.email         = ["'angelinamontanez80@gmail.com'"]
 
