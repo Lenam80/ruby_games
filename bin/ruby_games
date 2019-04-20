@@ -1,4 +1,4 @@
 #!/usr/bin/env ruby
 
-
-RubyGames::CLI.new.call
+require "bundler/setup"
+require "ruby_games"

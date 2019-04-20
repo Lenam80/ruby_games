@@ -1,6 +1,10 @@
-require "ruby_games/version"
+require "ruby_games"
+
+require 'pry'
+require 'nokogiri'
+require 'open-uri'
 
 module RubyGames
-  class Error < StandardError; end
-  # Your code goes here...
+require 'ruby_games/cli'
+require 'ruby_games/new_games'
 end
