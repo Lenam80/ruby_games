@@ -1,5 +1,4 @@
-#My controller
-class RubyGames::CLI
+class RubyGame: CLI
 
   def call
     puts "New Character:"
